@@ -1,0 +1,67 @@
+/* Professional Modern Style */
+
+/* Global font */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f8f9fa; /* light gray background */
+}
+
+/* Card styling */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 6px !important;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 6px !important;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  padding: 8px;
+}
+
+/* Spinner */
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+  border-width: 0.25rem;
+}
+
+/* Text */
+p {
+  font-size: 13px;
+  color: #666;
+}

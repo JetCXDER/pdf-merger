@@ -1,0 +1,74 @@
+/* Retro Pixel Style */
+
+/* Global font */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: #87CEEB; /* Mario sky blue */
+  image-rendering: pixelated;
+}
+
+/* Card styling */
+.card {
+  background: #fff8dc; /* parchment-like */
+  border: 6px solid #000;
+  border-radius: 0; /* blocky edges */
+  box-shadow: 8px 8px 0 #333;
+}
+
+/* Headings */
+h3 {
+  color: #000;
+  text-shadow: 2px 2px #fff;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 0 !important;
+  font-size: 12px;
+  padding: 12px;
+  font-weight: bold;
+  box-shadow: 4px 4px 0 #000;
+  transition: 0.2s;
+}
+
+.btn-primary {
+  background-color: #ff0000; /* Mario red */
+  border: 2px solid #000;
+}
+
+.btn-primary:hover {
+  background-color: #cc0000;
+  box-shadow: 6px 6px 0 #000;
+}
+
+.btn-success {
+  background-color: #00cc00; /* Minecraft green */
+  border: 2px solid #000;
+}
+
+.btn-success:hover {
+  background-color: #009900;
+  box-shadow: 6px 6px 0 #000;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 0 !important;
+  border: 3px solid #000;
+  background-color: #e0e0e0;
+  font-size: 12px;
+  box-shadow: inset 2px 2px 0 #999;
+}
+
+/* Spinner */
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+  border-width: 6px;
+  border-radius: 0; /* blocky spinner */
+}
+
+/* Text */
+p {
+  font-size: 10px;
+}
